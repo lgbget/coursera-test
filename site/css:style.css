@@ -1,0 +1,47 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #F8F8F8;
+}
+
+.section-title {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  padding: 10px;
+  font-size: 1.25em;
+  text-align: center;
+  color: white;
+  background-color: #8B0000;
+}
+
+.section-content {
+  margin-top: 40px;
+  font-size: 1em;
+}
+
+/* Media queries for responsive layout */
+@media only screen and (min-width: 992px) {
+  /* Desktop layout */
+  .section {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+
