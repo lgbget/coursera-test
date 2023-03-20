@@ -2,10 +2,49 @@
 <html>
   <head>
     <title>Responsive Page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <style>/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section {
+  position: relative; /* add this line to make section titles visible */
+  height: 200px; /* add this line to set a fixed height for sections */
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #F8F8F8;
+  width: calc(33.33% - 10px);
+}
+
+.section-title {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  padding: 10px;
+  font-size: 1.25em;
+  text-align: center;
+  color: white;
+  background-color: #8B0000;
+}
+
+.section-content {
+  margin-top: 40px;
+  font-size: 1em;
+}</style>
   </head>
   <body>
-    <h1 style="color:blue;">My Page Heading</h1>
+    <h1>My Page Heading</h1>
     
     <div class="section">
       <div class="section-title">Chicken</div>
@@ -29,5 +68,5 @@
     </div>
     
   </body>
-  <flooter>made by &copy; laghrib copyright</flooter>
+  <flooter>&copy;&nbsp;laghrib&nbsp;copyright</flooter>
 </html>
